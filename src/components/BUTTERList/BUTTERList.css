@@ -1,0 +1,52 @@
+.BUTTERList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2em;
+	max-width: 1200px;
+	margin: auto;
+	padding: 2em;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .BUTTERList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .BUTTERList {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .BUTTERListForm {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    /* grid-gap: 10px; */
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .BUTTERListForm input, .BUTTERListForm button {
+    padding: 1em;
+    margin: 0;
+    border: 1px solid;
+    font-size: 1rem;
+  }
+  
+  .BUTTERListForm input {
+    flex: 1;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+  }
+  
+  .BUTTERListForm button {
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+  }
+
+  .small {
+    padding-bottom: 20px;
+  }

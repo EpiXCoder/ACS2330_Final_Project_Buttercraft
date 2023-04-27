@@ -1,0 +1,52 @@
+.BUTTERLook {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  .BUTTERLook > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .BUTTERLook .BUTTERLook-title {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .BUTTERLook > h1 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .BUTTERLook .BUTTERLook-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+  }
+  
+  .BUTTERLook .BUTTERLook-info div {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  img {
+    border-radius: 10px;
+    transition: 1s ease;
+  }
+
+  img:hover{
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 1s ease;
+  }
