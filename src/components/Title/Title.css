@@ -45,3 +45,15 @@
     color: #fff;
     border-bottom: 2px solid;
   }
+
+  /***********************************************************************************/
+  /* TABLET */
+
+  @media only screen and (max-width: 560px) {
+    .banner {
+      padding-bottom: 0;
+      margin: 0;
+      font-family: Aurella !important;
+      font-size: 10vw;
+    }
+  }

@@ -1,18 +1,19 @@
 @font-face {
-    font-family: Glory;
-    src: url("Glory.otf");
-  }
+  font-family: Glory;
+  src: url("Glory.otf");
+}
 
 .contactme {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
 }
 
-.form{
-  width: 20%;
+.form {
+  width: 480px;
   margin: auto;
 }
-.contactitem{
+
+.contactitem {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -21,11 +22,14 @@
 .form-label {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.form-control{
+
+.form-control {
   height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-#message{
+#message {
   height: 100px;
 }
 
@@ -38,7 +42,7 @@
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
@@ -55,18 +59,31 @@
   touch-action: manipulation;
   width: 50%;
   will-change: transform;
-}
-
-.button-27:disabled {
+  }
+  
+  .button-27:disabled {
   pointer-events: none;
-}
-
-.button-27:hover {
+  }
+  
+  .button-27:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
-}
-
-.button-27:active {
+  }
+  
+  .button-27:active {
   box-shadow: none;
   transform: translateY(0);
-}
+  }
+
+
+    /***********************************************************************************/
+  /* MOBILE */
+
+  @media only screen and (max-width: 480px) {
+
+  .form {
+    width: 95%;
+    min-width:300px;
+    margin: auto;
+  }
+  }
