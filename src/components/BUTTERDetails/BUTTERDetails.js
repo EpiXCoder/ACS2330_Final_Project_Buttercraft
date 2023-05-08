@@ -2,24 +2,25 @@ import React from 'react'
 import { useParams } from 'react-router'
 import data from '../../butter-data.js'
 import './BUTTERDetails.css'
-import BUTTERItemList from '../BUTTERItems/BUTTERItemList'
+// import BUTTERItemList from '../BUTTERItems/BUTTERItemList'
+import OrderForm from '../BUTTEROrderForm/BUTTEROrderForm.js'
 
 
 
 function BUTTERDetails(props) {
   const params = useParams()
   const { id } = params // Location index
-  const { primary, items } = data[id]
+  const { image, name } = data[id]
 
   return (
     <div>
+      <h1>{name}</h1>
       <div className="BUTTERDetails">
         <div className="BUTTERDetails-image">
-          <img src={primary} alt='look'/>
+          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt='cake'/>
          </div>
         <div className="BUTTERDetails-info">
-          <h2>Shop this look</h2>
-          <BUTTERItemList items={items}/>
+          <OrderForm/>
         </div>
       </div>
 </div>

@@ -9,6 +9,7 @@ import BUTTERList from './components/BUTTERList/BUTTERList';
 import reportWebVitals from './reportWebVitals';
 import BUTTERDetails from './components/BUTTERDetails/BUTTERDetails';
 import ContactForm from './components/BUTTERContact/BUTTERContact';
+import LandingPage from './components/LandingPage/LandingPage';
 
 
 
@@ -20,7 +21,8 @@ root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="/" element={<BUTTERList />} />
+        <Route index element={<LandingPage />} />
+        <Route path="cakes" element={<BUTTERList />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactForm />} />
         <Route path="/details/:id" element={<BUTTERDetails />} />

@@ -23,11 +23,6 @@ function BUTTERList() {
       <div className="BUTTERList">
 			  {looks}
       </div>
-      <div className="Footer">
-          <hr className="Line"/>
-        <small>Butter Craft copyright 2023</small>
-        <p></p>
-      </div>
     </div>
   )
 }

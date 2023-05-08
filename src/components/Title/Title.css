@@ -1,8 +1,9 @@
 
-@font-face {
-  font-family: HenriDidot;
-  src: url("HenriDidot.otf");
-}
+  @font-face {
+    font-family: aurella;
+    src: url("Aurella.ttf");
+  }
+
 
 .BUTTERTitle {
     box-sizing: border-box;
@@ -15,11 +16,16 @@
     color: #fff;
   }
 
+  .BUTTERLogo-image {
+    width: 20px;
+    height: 20px;
+  }
+
  .banner {
     padding-bottom: 0;
-    margin-bottom: 0;
-    font-family: HenriDidot !important;
-    font-size: 50px;
+    margin: 0;
+    font-family: Aurella !important;
+    font-size: 70px;
   }
 
   .Title-Subtitle {
