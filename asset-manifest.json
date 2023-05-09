@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ACS2330_Final_Project_Buttercraft/static/css/main.71f2380a.css",
+    "main.js": "/ACS2330_Final_Project_Buttercraft/static/js/main.c968c8db.js",
+    "static/js/787.5480e000.chunk.js": "/ACS2330_Final_Project_Buttercraft/static/js/787.5480e000.chunk.js",
+    "static/media/heart.ttf": "/ACS2330_Final_Project_Buttercraft/static/media/heart.2182d38b7aa478111909.ttf",
+    "static/media/HenriDidot.otf": "/ACS2330_Final_Project_Buttercraft/static/media/HenriDidot.75200aa18d6b8e5f28f8.otf",
+    "static/media/Aurella.ttf": "/ACS2330_Final_Project_Buttercraft/static/media/Aurella.0e297000378139112b6b.ttf",
+    "static/media/Glory.otf": "/ACS2330_Final_Project_Buttercraft/static/media/Glory.420ccd65407bbb148c98.otf",
+    "index.html": "/ACS2330_Final_Project_Buttercraft/index.html",
+    "main.71f2380a.css.map": "/ACS2330_Final_Project_Buttercraft/static/css/main.71f2380a.css.map",
+    "main.c968c8db.js.map": "/ACS2330_Final_Project_Buttercraft/static/js/main.c968c8db.js.map",
+    "787.5480e000.chunk.js.map": "/ACS2330_Final_Project_Buttercraft/static/js/787.5480e000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f2380a.css",
+    "static/js/main.c968c8db.js"
+  ]
+}
