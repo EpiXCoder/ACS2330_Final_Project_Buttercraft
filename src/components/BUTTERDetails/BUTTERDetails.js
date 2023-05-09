@@ -15,15 +15,15 @@ function BUTTERDetails(props) {
   return (
     <div>
       <h1>{name}</h1>
-      <div className="BUTTERDetails" role="main">
+      <div className="BUTTERDetails" role="main" aria-label={aria}>
         <div className="BUTTERDetails-image">
-          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt={aria}/>
-         </div>
+          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt="cake" />
+        </div>
         <div className="BUTTERDetails-info">
-          <OrderForm/>
+          <OrderForm />
         </div>
       </div>
-</div>
+    </div>
   )
 }
 
