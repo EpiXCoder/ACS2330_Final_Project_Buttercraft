@@ -2,15 +2,17 @@
 
 This project was created as proof of concept and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-
 ## Deployed Page
-https://epixcoder.github.io/ACS1320_React_Final_Project_Blair/
+[https://EpiXCoder.github.io/ACS2330_Final_Project_Buttercraft](https://EpiXCoder.github.io/ACS2330_Final_Project_Buttercraft)
 
 ## Tech Stack
 React
 Javascript
 HTML
 CSS
+
+## Wireframes
+The wireframes for the webpage are available [here](https://www.figma.com/file/yphNERZFWvlr4FEtpzoHGf/Buttercraft-Wireframe?type=design&node-id=6%3A108&t=LOJeebuPH3E4EgPM-1). Two designs available: one for [Large Andoird phones](https://www.figma.com/file/yphNERZFWvlr4FEtpzoHGf/Buttercraft-Wireframe?type=design&node-id=0-1) and another for [14" Macbook Pro](https://www.figma.com/file/yphNERZFWvlr4FEtpzoHGf/Buttercraft-Wireframe?type=design&node-id=6-108).
 
 ## Available Scripts
 
