@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './BUTTERLook.css'
 
 function BUTTERLook(props) {
-    const { image, id } = props
+    const { image, id, aria } = props
     return (
     <div className="BUTTERLook">
         <Link to={`/details/${id}`}>
@@ -11,7 +11,7 @@ function BUTTERLook(props) {
             src={`${process.env.PUBLIC_URL}/images/${image}`}
             width="300" 
             height="375" 
-            alt="Hello" />
+            alt={aria} />
         </Link>
     </div>
     )

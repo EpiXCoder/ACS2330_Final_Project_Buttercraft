@@ -8,13 +8,14 @@ import data from '../../butter-data'
 
 function BUTTERList() {
   const looks = data.map((obj) => {
-    const { id, image} = obj
+    const { id, image, aria} = obj
   // const spaces = data.map(({ title, address, images, hours }, i) => {
     return (
       <BUTTERLook
         id={id}
         key={id}
         image={image}
+        aria={aria}
       />
     )
   })

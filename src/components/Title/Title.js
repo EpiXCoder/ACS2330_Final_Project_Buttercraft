@@ -1,32 +1,42 @@
-import React from 'react'
+import React from 'react';
 import './Title.css';
-import { NavLink } from 'react-router-dom'
-
+import { NavLink } from 'react-router-dom';
 
 function Title() {
   return (
     <div className="BUTTERTitle">
       <header>
-        <img src={`${process.env.PUBLIC_URL}/images/cake.png`} alt='cake' height="100px"/>
-        <h1 className = "banner">Buttercraft Cakes</h1>
-
-
-        <div>
-        <NavLink 
-          className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-          to="/cakes">Cakes</NavLink>
-        <NavLink 
-          className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-          to="/about">About</NavLink>
-        <NavLink 
-          className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-          to="/contact">Contact</NavLink>
-        </div>
-
+        <img src={`${process.env.PUBLIC_URL}/images/cake.png`} alt="cake" height="100px" />
+        <h1 className="banner">Buttercraft Cakes</h1>
+        <nav>
+          <NavLink
+            exact
+            activeClassName="nav-link-active"
+            className="nav-link"
+            to="/cakes"
+          >
+            Cakes
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName="nav-link-active"
+            className="nav-link"
+            to="/about"
+          >
+            About
+          </NavLink>
+          <NavLink
+            exact
+            activeClassName="nav-link-active"
+            className="nav-link"
+            to="/contact"
+          >
+            Contact
+          </NavLink>
+        </nav>
       </header>
     </div>
-  )
+  );
 }
 
-export default Title
-
+export default Title;
