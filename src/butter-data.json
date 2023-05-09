@@ -2,147 +2,177 @@
   {
     "id": 0,
     "image": "Rosette.jpg",
-    "name": "Rosette"
+    "name": "Rosette",
+    "aria": "White one-tier buttercream cake with rosette buttercream design"
   },
   {
     "id": 1,
     "image": "gold-heart.jpg",
-    "name": "Gold Heart"
+    "name": "Gold Heart",
+    "aria": "yellow buttercream cake with fresh floral toppers"
   },
   {
     "id": 2,
     "image": "pink-lass.jpg",
-    "name": "Pink Lass"
+    "name": "Pink Lass",
+    "aria": "pink buttercream cake with gold name label, rose and globe toppers"
   },
   {
     "id": 3,
     "image": "vintage-rose-piped.jpg",
-    "name": "Vintage Rose Piped"
+    "name": "Vintage Rose Piped",
+    "aria": "dusty peach piped buttercream cake with fresh floral toppers"
   },
   {
     "id": 4,
     "image": "audrey.jpg",
-    "name": "Audrey"
+    "name": "Audrey",
+    "aria": "two tier white buttercream cake with white floral toppers and brown accents"
   },
   {
     "id": 5,
     "image": "graduation.jpg",
-    "name": "Graduation"
+    "name": "Graduation",
+    "aria": "white buttercream cake with fresh floral and fondant graduation hat topper"
   },
   {
     "id": 6,
     "image": "raspberry-flora.jpg",
-    "name": "Raspberry Flora"
+    "name": "Raspberry Flora",
+    "aria": "white buttercream cake with raspberry studs and gold topper"
   },
   {
     "id": 7,
     "image": "white-pumpkin.jpg",
-    "name": "White Pumpkin"
+    "name": "White Pumpkin",
+    "aria": "white buttercream cake with fondant baby and white pumpkin figurines"
   },
   {
     "id": 8,
     "image": "comic-book.jpg",
-    "name": "Comic Book"
+    "name": "Comic Book",
+    "aria": "ironman comic book themed cake with topper"
   },
   {
     "id": 9,
     "image": "hobby.jpg",
-    "name": "Hobby"
+    "name": "Hobby",
+    "aria": "hobby themed cake with edible printed body and soccer ball topper"
   },
   {
     "id": 10,
     "image": "sky.jpg",
-    "name": "Sky"
+    "name": "Sky",
+    "aria": "blue ombre cake"
   },
   {
     "id": 11,
     "image": "winter-wonderland.jpg",
-    "name": "Winter Wonderland"
+    "name": "Winter Wonderland",
+    "aria": "winter wonderland cake with baby in a globe topper and pine tree detailing"
   },
   {
     "id": 12,
     "image": "dark-rose.jpg",
-    "name": "Dark Rose"
+    "name": "Dark Rose",
+    "aria": "black and white cake with white rose and Patron toppers "
   },
   {
     "id": 13,
     "image": "hunny.jpg",
-    "name": "Hunny"
+    "name": "Hunny",
+    "aria": "Winnie the Pooh themed caek with Pooh fadant topper"
   },
   {
     "id": 14,
     "image": "sportsman.jpg",
-    "name": "Sportsman"
+    "name": "Sportsman",
+    "aria": "cricket themed cake with a batsman topper"
+
   },
   {
     "id": 15,
     "image": "woodland-mother.jpg",
-    "name": "Woodland Mother"
+    "name": "Woodland Mother",
+    "aria": "woodland themed cake with animal fondant figures with deer and fawn at the top"
   },
   {
     "id": 16,
     "image": "dusty-rose.jpg",
-    "name": "Dusty Rose"
+    "name": "Dusty Rose",
+    "aria": "dusty rose cake with fresh rose and macaron toppers"
   },
   {
     "id": 17,
     "image": "lovers.jpg",
-    "name": "Lovers"
+    "name": "Lovers",
+    "aria": "white cake with orange accents with couple fondant figurines"
   },
   {
     "id": 18,
     "image": "unicorn.jpg",
-    "name": "Unicorn"
+    "name": "Unicorn",
+    "aria": "unicorn cake"
   },
   {
     "id": 19,
     "image": "yeezy.jpg",
-    "name": "Yeezy"
+    "name": "Yeezy",
+    "aria": "kanye west cake"
   },
   {
     "id": 20,
     "image": "eli.jpg",
-    "name": "Eli"
+    "name": "Eli",
+    "aria": "baby pink and blue cake with cute elephant topper"
+
   },
   {
     "id": 21,
     "image": "lumber-jack-moose.jpg",
-    "name": "Lumber Jack Moose"
+    "name": "Lumber Jack Moose",
+    "aria": "lumberjack themed cake with fondant moose topper"
   },
   {
     "id": 22,
     "image": "up.jpg",
-    "name": "Up"
+    "name": "Up",
+    "aria": "Up the movie themed cake with house with balloon bunch topper"
   },
   {
     "id": 23,
     "image": "flower-ring.jpg",
-    "name": "Flower Ring"
+    "name": "Flower Ring",
+    "aria": "cake with floral ring topper"
   },
   {
     "id": 24,
     "image": "marble.jpg",
-    "name": "Marble"
+    "name": "Marble",
+    "aria": "marble effect cake with fresh floral and gold toppers"
   },
   {
     "id": 25,
     "image": "velvet-flowers.jpg",
-    "name": "Velvet Flowers"
+    "name": "Velvet Flowers",
+    "aria": "yellow velvet effect cake with fresh floral toppers"
   },
   {
   "id": 26,
   "image": "flower-tower.jpg",
-  "name": "Flower Tower"
+  "name": "Flower Tower",
+  "aria": "8 tier wedding cake with fresh floral "
   },
   {
   "id": 27,
   "image": "my-team.jpg",
-  "name": "My Team"
+  "name": "My Team",
+  "aria": "Manchester United themed cake with soccer ball topper"
   },
   {
   "id": 28,
   "image": "vintage-rose-peach-leaf.jpg",
-  "name": "Vintage Rose Peach Leaf"
+  "name": "Peach cake with fresh florals and pearl studs"
   }
   ]
 

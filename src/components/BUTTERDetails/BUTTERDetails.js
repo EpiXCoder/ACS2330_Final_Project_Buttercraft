@@ -10,14 +10,14 @@ import OrderForm from '../BUTTEROrderForm/BUTTEROrderForm.js'
 function BUTTERDetails(props) {
   const params = useParams()
   const { id } = params // Location index
-  const { image, name } = data[id]
+  const { image, name, aria } = data[id]
 
   return (
     <div>
       <h1>{name}</h1>
-      <div className="BUTTERDetails">
+      <div className="BUTTERDetails" role="main">
         <div className="BUTTERDetails-image">
-          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt='cake'/>
+          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt={aria}/>
          </div>
         <div className="BUTTERDetails-info">
           <OrderForm/>

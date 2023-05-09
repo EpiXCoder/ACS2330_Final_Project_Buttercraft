@@ -5,7 +5,7 @@
 
 .contactme {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: larger;
+  font-size: 30px;
 }
 
 .form {
@@ -21,6 +21,10 @@
 
 .form-label {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label {
+  font-size: 20px;
 }
 
 .form-control {
@@ -43,7 +47,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   line-height: normal;
   margin: 0;
@@ -59,31 +63,30 @@
   touch-action: manipulation;
   width: 50%;
   will-change: transform;
-  }
-  
-  .button-27:disabled {
+  margin-top: 20px;
+}
+
+.button-27:disabled {
   pointer-events: none;
-  }
-  
-  .button-27:hover {
+}
+
+.button-27:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
-  }
-  
-  .button-27:active {
+}
+
+.button-27:active {
   box-shadow: none;
   transform: translateY(0);
-  }
+}
 
+/***********************************************************************************/
+/* MOBILE */
 
-    /***********************************************************************************/
-  /* MOBILE */
-
-  @media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 480px) {
   .form {
     width: 95%;
-    min-width:300px;
+    min-width: 300px;
     margin: auto;
   }
-  }
+}

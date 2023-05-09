@@ -33,12 +33,12 @@ function App() {
   return (
   <div className="App" role="main">
     <div className="App-content">
-      <div className='navbar'>
+      <nav className='navbar' aria-label="Main navigation">
         {location.pathname !== '/' && <Title />}
-      </div>
-      <div className={`not-navbar ${isLandingPage ? "landing-page" : ""}`}>
+      </nav>
+      <main className={`${isLandingPage ? "landing-page" : "not-navbar"}`}>
         <Outlet />
-      </div>
+      </main>
       </div>
       {location.pathname !== '/' && <Footer />}
   </div>

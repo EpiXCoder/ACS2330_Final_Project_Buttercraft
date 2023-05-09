@@ -29,42 +29,37 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" role="main">
       <h2 className="contactme">Contact Me</h2>
       <form className="form" onSubmit={onSubmit}>
         <div className="contactitem">
           <label className="form-label" htmlFor="name">
             Name
           </label>
-          <input className="form-control" type="text" id="name" required />
+          <input className="form-control" type="text" id="name" required aria-required="true" />
         </div>
         <div className="contactitem">
           <label className="form-label" htmlFor="email">
             Email
           </label>
-          <input className="form-control" type="email" id="email" required />
+          <input className="form-control" type="email" id="email" required aria-required="true" />
         </div>
         <div className="contactitem">
           <label className="form-label" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" id="message" required />
+          <textarea className="form-control" id="message" required aria-required="true" />
         </div>
         <div className="contactitem">
           <label className="form-label" htmlFor="file">
             File Upload
           </label>
-          <input
-            className="form-control"
-            type="file"
-            id="file"
-            accept="image/*"
-          />
           <small className="form-text text-muted">
             Upload inspiration picture or decor there etc.
           </small>
+          <input className="form-control" type="file" id="file" accept="image/*" />
         </div>
-        <button className="button-27" type="submit">
+        <button className="button-27" type="submit" disabled={formStatus === "Submitting..."}>
           {formStatus}
         </button>
       </form>
